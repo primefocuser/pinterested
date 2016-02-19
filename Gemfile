@@ -42,7 +42,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # The following is from pg 56
-  gem 'sqlite3 -v 1.3.11'
+  gem 'sqlite3'
 end
 
 group :development do
@@ -57,5 +57,5 @@ end
 # why the tab in the gem 'pg' line in the book?
 group :production do
   gem 'pg', '0.17.1'
-  gem 'rails_12factor', 0.0.2
+  gem 'rails_12factor', '0.0.2'
 end
